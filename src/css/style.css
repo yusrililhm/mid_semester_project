@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    transition: all .3s linear;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    background: #121219;
+    color: #eee;
+}
+
+/* uts.html start*/
+
+/*navbar start*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 35px;
+    background-color: #121218;
+    box-shadow: 0 3px 8px rgba(1, 1, 255, .3);
+}
+
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navbar li {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+header .navbar ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04rem;
+    color: white;
+}
+
+header .navbar ul li:hover{
+    border-bottom: solid 2px blue;
+}
+
+header .navbar a:hover{
+    color: blue;
+}
+
+/*navbar end*/
+
+/*form start*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background: #121219;  
+    margin-top: 80px;
+}
+.container .form{
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow:  rgba(255, 255, 250, .2);
+    font-size: 13px;
+    background: #121217;
+}
+
+.container .form h1, .container .form h2{
+    text-align: center;
+    margin: 3px;
+}
+
+.container .form p{
+    font-size: 13px;
+}
+
+.container .form input{
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 13px;
+    border: none;
+    border-bottom: solid 1px blue;
+    background: #121217;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.container .form select{
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 13;
+    border: none;
+    border-bottom: solid 1px blue;
+    background: #121217;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.container .form select option{
+    background: #121217;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 120px;
+    font-size: 13px;
+    background: #121217;
+    border: 1px blue solid;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+button{
+    border: none;
+    background-color: #112570;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 5px rgba(125, 150, 230);
+    background: #112530;
+}
+
+/*form end*/
+
+/*contact*/
+.contact h2{
+    text-align: center;
+}
+
+.footer{
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    height: 35px;
+    margin-top: -30px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer li {
+    margin-left: 10px;
+}
+
+.footer ul li a {
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #eee
+}
+
+.footer a:hover{
+    color: blue;
+}
+/*contact end*/
+
+/* uts.html end */
+
+/* about.html start */
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background: #121219;  
+    margin-top: 80px;
+    overflow: hidden;
+}
+.content{
+    padding: 20px;
+    margin: 10px;
+    width<header>
+
+        <nav class="navbar">
+
+            <ul>
+                <li><a href="uts.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>: 300px;
+    text-align: center;
+    border-radius: 18px;
+}
+
+.content h2{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.content img{
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content img:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 255, .4);
+    transition: .5s;
+}
+/* about.html end */
